@@ -1,4 +1,4 @@
-# VSSphere
+# VSphere
 
 Here you will experiment with differen Operating Systems so that you have experience with imperative \& declarative, Atomic \& Non-Atomic and Mutuable \& Immutable deployment.
 
