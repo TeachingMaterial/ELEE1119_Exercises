@@ -1,6 +1,16 @@
-# OS Pantheon
+# VSSphere
 
 Here you will experiment with differen Operating Systems so that you have experience with imperative \& declarative, Atomic \& Non-Atomic and Mutuable \& Immutable deployment.
+
+## Link to VSphere
+
+
+- [https://classroom-vc.gre.ac.uk](https://classroom-vc.gre.ac.uk) 
+  - Login: username@student
+  - Password: \<your gre password\>
+
+>> **Note:** You can only access this when on a Gre machine
+
 
 ## Declarative & Atomic & Immutable configuration
 

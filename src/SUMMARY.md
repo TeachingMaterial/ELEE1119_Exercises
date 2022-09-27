@@ -1,7 +1,6 @@
 # Summary
 
 This book, will be continually updated with new documentation and labs for use in ELEE1119.
-
 - [Shell](./Shell/shell.md)
   - [Installation](./Shell/installation.md)
   - [Introducing the Shell](./Shell/introducing_shell.md)
@@ -24,10 +23,10 @@ This book, will be continually updated with new documentation and labs for use i
 - [Shell Style Guide](./Shell_Style_Guide/shellstyleguide.md)
 - [System Statistics Script](./System_Statistics_Script/systemStats.md)
 - [RFC Logger Script](./RFC_Logger/rfclogger.md)
-- [OS Pantheon](./OS_Pantheon/Introduction.md)
-  - [NixOS](./OS_Pantheon/nixOS/nixOS.md)
-  - [Arch](./OS_Pantheon/arch/arch.md)
-  - [Raspberry Pi OS](./OS_Pantheon/RPIOS/rpios.md)
-  - [Windows Core IoT](./OS_Pantheon/WindowsCoreIoT/WindowsCoreIoT.md)
+- [VSphere](./VSphere/Introduction.md)
+  - [NixOS](./VSphere/nixOS/nixOS.md)
+  - [Arch](./VSphere/arch/arch.md)
+  - [Raspberry Pi OS](./VSphere/RPIOS/rpios.md)
+  - [Windows Core IoT](./VSphere/WindowsCoreIoT/WindowsCoreIoT.md)
   ----
   [Back to Contents Page](shell.md)
