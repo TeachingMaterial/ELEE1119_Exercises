@@ -1,6 +1,7 @@
 # Summary
 
 This book, will be continually updated with new documentation and labs for use in ELEE1119.
+- [Git and Github](./GitandGitHub/GitandGithub.md)
 - [Shell](./Shell/shell.md)
   - [Installation](./Shell/installation.md)
   - [Introducing the Shell](./Shell/introducing_shell.md)
