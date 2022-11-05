@@ -1,6 +1,7 @@
 # Summary
 
-This book, will be continually updated with new documentation and labs for use in ELEE1119.
+# Bourne Again SHell
+
 - [Shell](./Shell/shell.md)
   - [Installation](./Shell/installation.md)
   - [Introducing the Shell](./Shell/introducing_shell.md)
@@ -23,6 +24,18 @@ This book, will be continually updated with new documentation and labs for use i
 - [Shell Style Guide](./Shell_Style_Guide/shellstyleguide.md)
 - [System Statistics Script](./System_Statistics_Script/systemStats.md)
 - [RFC Logger Script](./RFC_Logger/rfclogger.md)
+
+# Git
+- [My First Repository](myFirstRepository/myFirstRepository.md)
+- [Branching-Strategy](BranchingModel/BranchingModel.md)
+- [Git Oneflow](OneFlow/OneFlow.md)
+- [Anti Patterns](AntiPatterns/AntiPatterns.md)
+- [Continous Deployment](ContinousDeployment/ContinousDeployment.md)
+- [Release Deployment](ReleaseDeployment/ReleaseDeployment.md)
+- [Migration](Migration/Migration.md)
+
+# Operating Systems/ Virtual Machines
+
 - [VSphere](./VSphere/Introduction.md)
   - [NixOS](./VSphere/nixOS/nixOS.md)
   - [Arch](./VSphere/arch/arch.md)
