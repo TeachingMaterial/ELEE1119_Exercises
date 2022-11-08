@@ -37,6 +37,7 @@
 # Operating Systems/ Virtual Machines
 
 - [VSphere](./VSphere/Introduction.md)
+  - [CentOS](./VSphere/centOS/centOS.md)
   - [NixOS](./VSphere/nixOS/nixOS.md)
   - [Arch](./VSphere/arch/arch.md)
   - [Raspberry Pi OS](./VSphere/RPIOS/rpios.md)
