@@ -434,3 +434,7 @@ LOG_RESET() {
 >
 > ![Caption](images/output.PNG)
 
+Download from here the files that we have built if you need too.
+
+- [rfclogger.sh](./rfclogger.sh)
+- [example.sh](./example)
