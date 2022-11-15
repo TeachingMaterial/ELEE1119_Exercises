@@ -24,7 +24,7 @@
 - [Shell Style Guide](./Shell_Style_Guide/shellstyleguide.md)
 - [System Statistics Script](./System_Statistics_Script/systemStats.md)
 - [RFC Logger Script](./RFC_Logger/rfclogger.md)
-
+- [Man page Example](./ManPages/manexample.md)
 # Git
 - [My First Repository](myFirstRepository/myFirstRepository.md)
 - [Branching-Strategy](BranchingModel/BranchingModel.md)

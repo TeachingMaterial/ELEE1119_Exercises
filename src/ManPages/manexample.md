@@ -1,3 +1,4 @@
+```sh
 ://www.golinuxcloud.com/create-man-page-template-linux-with-examples/
 .TH "SYSTEMSTATS" "8" "27 Oct 2020" "1.0" "SYSTEMSTATS man page"
 .\" -------------------------------------------
@@ -13,7 +14,7 @@
 systemStats \- retrieves information from host system
 .SH "SYNOPSIS"
 .HP \w'\fRsystemStats\fR\ 'u
-\fRsystemStats\fR [\-t\ \fItemperature\fR] [\-f\ \fIfrequency\fR] [\-c\ \fIcores\fR] [\-V\ \fIVoltage\fR] [\-m\ \fIArmMemory\fR] [\-M\ \fIGPUMemory]\fR] [\-F\ \fIFreeMemory] [\-i\ \fIIPv#\fR] [\-v\ \fIVersionInfo\fR]
+\fRsystemStats\fR [\-t\ \fItemperature\fR] [\-f\ \fIfrequency\fR] [\-c\ \fIcores\fR] [\-V\ \fIVoltage\fR] [\-m\ \fIArmMemory\fR] [\-M\ \fIGPUMemory]\fR] [\-F\ \fIFreeMemory] [\-i\ \fIIPv4\fR] [\-v\ \fIVersionInfo\fR]
 .br
 
 .SH "DESCRIPTION"
@@ -95,8 +96,9 @@ Will gather the system core temperature, arm clock frequency, cores, voltage, ar
 .SH "NOTES"
 This script will be developed over time to display more information using different options
 
+.SH "BUGS"
+Any bugs please forward them to the suggestion bin suggestion > /dev/null
+
 .SH "AUTHORS"
 Seb Blair <seb.blair@uog.ac.uk> <seb.blair@canterbury.ac.uk>
-
-in
-RStudio-with-my-packages
+```
