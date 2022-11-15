@@ -5,6 +5,7 @@ multilingual = false
 src = "src"
 title = "ELEE1119 Exercise Book"
 
+output.html.input-404 = "404/404.md"
 [output.html.search]
 limit-results = 20
 use-boolean-and = true
