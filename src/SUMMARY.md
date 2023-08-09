@@ -1,6 +1,23 @@
-# Summary
 
+------------------------------------------------------
+------------------------------------------------------
+# Main
 - [Programming Computers](./Programming_Computers/programming_computers.md)
+- [Learning C](./Learning_C/Learning_C.md)
+- [Man Pages](./ManPages/manexample.md) 
+- [System Calls](./SystemCalls/SystemCalls.md)
+- [Multi Threading](./Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
+- [System Scripts](./System_Statistics_Script/systemStats.md)
+- [Daemons](./Daemons/Daemons.md)
+- [Bash](./Bash/Bash_Scripting.md)
+- [Redirection](./Redirection/Redirection.md)
+- [Shell Commands](./Shell_Commands/Shell_Commands.md)
+- [UUID](./uuid/uuid.md)
+- [RFC Logger](./RFC_Logger/rfclogger.md)
+
+------------------------------------------------------
+------------------------------------------------------
+
 # Bourne Again SHell
 
 - [Shell](./Shell/shell.md)
@@ -26,6 +43,10 @@
 - [System Statistics Script](./System_Statistics_Script/systemStats.md)
 - [RFC Logger Script](./RFC_Logger/rfclogger.md)
 - [Man page Example](./ManPages/manexample.md)
+
+------------------------------------------------------
+------------------------------------------------------
+
 # Git
 - [My First Repository](myFirstRepository/myFirstRepository.md)
 - [Branching-Strategy](BranchingModel/BranchingModel.md)
@@ -34,6 +55,9 @@
 - [Continous Deployment](ContinousDeployment/ContinousDeployment.md)
 - [Release Deployment](ReleaseDeployment/ReleaseDeployment.md)
 - [Migration](Migration/Migration.md)
+
+------------------------------------------------------
+------------------------------------------------------
 
 # Operating Systems/ Virtual Machines
 

@@ -12,16 +12,12 @@ In this lab you will implement the Internet Engineering Taskforce RFC 5424 stand
 
 # Getting Started 
 
-Open a terminal and make a directory in your `$HOME` directory and call it `ACe/` if you havent got one already,
-using the `mkdir ACE` command in the terminal in JupyterHub.
+Open a terminal and make a directory in your `$HOME` directory and call it `ELEE1119/` if you havent got one already,
+using the `mkdir ELEE1119` command in the terminal in JupyterHub.
 
-Next you will need to create a child directory inside `ACE` called `logging`.
+Next you will need to create a child directory inside `ELEE1119` called `logging`.
 
-From here you can either navigate to this newly created child directory using `cd ACE/logging` if you are in the `$HOME` directory still.
-
-![mkdir example](images/mkdir.png)
-
-> ***NOTE**: Remember you should be in `dev` branch.
+From here you can either navigate to this newly created child directory using `cd ELEE1119/logging` if you are in the `$HOME` directory still.
 
 Now pick your favourite text editor(nano, vim, etc) or find an IDE installed on the system. Then create a new shell script like this `<editor> rfclogger.sh` where the `<editor>` is nano, vim, etc.
 
