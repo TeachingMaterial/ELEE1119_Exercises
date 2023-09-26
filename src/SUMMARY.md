@@ -2,6 +2,7 @@
 ------------------------------------------------------
 ------------------------------------------------------
 # Main
+- [Introduction](Introduction/Introduction.md)
 - [Programming Computers]()
 - [Learning C]()
 - [Man Pages]() 
@@ -20,25 +21,25 @@
 
 # Bourne Again SHell
 
-- [Shell](./Shell/shell.md)
-  - [Installation](./Shell/installation.md)
-  - [Introducing the Shell](./Shell/introducing_shell.md)
-  - [Navigating File and Directories](./Shell/fileDir.md)
-  - [Working with FIles and Directories](./Shell/create.md)
-  - [Pipes and Filters](./Shell/pipefilter.md)
-  - [Loop](./Shell/loops.md)
-  - [Scripts](./Shell/scripts.md)
-  - [Finding Things](./Shell/find.md)
-  - [Summary of Basic Commands](./Shell/reference.md)
-- [Extra Shell](./Shell_Extras/introduction.md)
-  - [Manual Pages](./Shell_Extras/manfiles.md)
-  - [Working Remotely](./Shell_Extras/workremote.md)
-  - [Permissions](./Shell_Extras/permissions.md)
-  - [Working with Files and Directories](./Shell_Extras/dirstruct.md)
-  - [Job Control](./Shell_Extras/jobs.md)
-  - [Aliases and bash customisation](./Shell_Extras/aliases.md)
-  - [Shell Variables](./Shell_Extras/shellvars.md)
-  - [Summary of Commands](./Shell_Extras/references.md)
+- [Shell]()
+  - [Installation]()
+  - [Introducing the Shell]()
+  - [Navigating File and Directories]()
+  - [Working with FIles and Directories]()
+  - [Pipes and Filters]()
+  - [Loop]()
+  - [Scripts]()
+  - [Finding Things]()
+  - [Summary of Basic Commands]()
+- [Extra Shell]()
+  - [Manual Pages]()
+  - [Working Remotely]()
+  - [Permissions]()
+  - [Working with Files and Directories]()
+  - [Job Control]()
+  - [Aliases and bash customisation]()
+  - [Shell Variables]()
+  - [Summary of Commands]()
 - [Shell Style Guide]()
 - [System Statistics Script]()
 - [RFC Logger Script]()
@@ -61,7 +62,7 @@
 
 # Operating Systems/ Virtual Machines
 
-- [VSphere]()
+- [VSphere](VSphere/Introduction.md)
   - [CentOS]()
   - [NixOS]()
   - [Arch]()
