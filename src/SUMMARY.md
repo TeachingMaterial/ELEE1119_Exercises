@@ -2,18 +2,18 @@
 ------------------------------------------------------
 ------------------------------------------------------
 # Main
-- [Programming Computers](./Programming_Computers/programming_computers.md)
-- [Learning C](./Learning_C/Learning_C.md)
-- [Man Pages](./ManPages/manexample.md) 
-- [System Calls](./SystemCalls/SystemCalls.md)
-- [Multi Threading](./Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
-- [System Scripts](./System_Statistics_Script/systemStats.md)
-- [Daemons](./Daemons/Daemons.md)
-- [Bash](./Bash/Bash_Scripting.md)
-- [Redirection](./Redirection/Redirection.md)
-- [Shell Commands](./Shell_Commands/Shell_Commands.md)
-- [UUID](./uuid/uuid.md)
-- [RFC Logger](./RFC_Logger/rfclogger.md)
+- [Programming Computers]()
+- [Learning C]()
+- [Man Pages]() 
+- [System Calls]()
+- [Multi Threading]()
+- [System Scripts]()
+- [Daemons]()
+- [Bash]()
+- [Redirection]()
+- [Shell Commands]()
+- [UUID]()
+- [RFC Logger]()
 
 ------------------------------------------------------
 ------------------------------------------------------
@@ -39,10 +39,10 @@
   - [Aliases and bash customisation](./Shell_Extras/aliases.md)
   - [Shell Variables](./Shell_Extras/shellvars.md)
   - [Summary of Commands](./Shell_Extras/references.md)
-- [Shell Style Guide](./Shell_Style_Guide/shellstyleguide.md)
-- [System Statistics Script](./System_Statistics_Script/systemStats.md)
-- [RFC Logger Script](./RFC_Logger/rfclogger.md)
-- [Man page Example](./ManPages/manexample.md)
+- [Shell Style Guide]()
+- [System Statistics Script]()
+- [RFC Logger Script]()
+- [Man page Example]()
 
 ------------------------------------------------------
 ------------------------------------------------------
@@ -61,11 +61,11 @@
 
 # Operating Systems/ Virtual Machines
 
-- [VSphere](./VSphere/Introduction.md)
-  - [CentOS](./VSphere/centOS/centOS.md)
-  - [NixOS](./VSphere/nixOS/nixOS.md)
-  - [Arch](./VSphere/arch/arch.md)
-  - [Raspberry Pi OS](./VSphere/RPIOS/rpios.md)
-  - [Windows Core IoT](./VSphere/WindowsCoreIoT/WindowsCoreIoT.md)
+- [VSphere]()
+  - [CentOS]()
+  - [NixOS]()
+  - [Arch]()
+  - [Raspberry Pi OS]()
+  - [Windows Core IoT]()
   ----
   [Back to Contents Page](shell.md)
