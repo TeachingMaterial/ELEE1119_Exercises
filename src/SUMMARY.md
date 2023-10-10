@@ -4,6 +4,7 @@
 # Main
 - [Introduction](Introduction/Introduction.md)
 - [Debian Rock C4](Debian_Rock/Debian_Rock.md)
+- [Systems Stats Script](SystemsStats/SystemsStats.md)
 - [Nixos Package Manager]()
 - [Programming Computers]()
 - [Learning C]()
