@@ -28,7 +28,7 @@ $ vim systemStats.sh
 
 - press the lowercase `i` to enter **INSERT** mode...
 
-Reproduce the follwing:
+Reproduce the following:
 
 ```sh
 
@@ -63,7 +63,7 @@ $ ls -lah
 >> - modifiers are broken down into 3 octet sets,
 >>      - user group rest-of-the-world
 >>      - rwx r-x r-x
->>      - `r` = read, `w` = write, `x` = excute
+>>      - `r` = read, `w` = write, `x` = execute
 
 Running the following to change permissions for this:
 
@@ -86,7 +86,7 @@ $ ./systemStats.sh
 >echo Hello World, Goodbye World!
 ```
 
-This is because the file is an excutable and the shebang runs the script with the program at the end of the line i.e `cat`
+This is because the file is an executable and the shebang runs the script with the program at the end of the line i.e `cat`
 
 As proof lets use cat directly:
 
@@ -103,7 +103,7 @@ Changing the shebang to `bash` will ensure the `bash` program is called instead.
 $ vim ./systemStats.sh
 ```
 
-Again remember to press `i` to enter **INSERT** mode, and reproduce the follwing
+Again remember to press `i` to enter **INSERT** mode, and reproduce the following
 
 ```sh
 #! /usr/bin/env bash
@@ -111,7 +111,7 @@ Again remember to press `i` to enter **INSERT** mode, and reproduce the follwing
 echo Hello World, Goodbye World!
 ```
 
-Run the program and you will get the same output as `bash systemStats.md`
+Run the program and you will get the same output as `bash systemStats.sh`
 
 ```sh
 $ ./systemStats.sh
@@ -120,7 +120,7 @@ $ ./systemStats.sh
 
 ## A more meaningful script
 
-Scripting is useful for automating process and system admin for example, getting lots of information from all over the OS using one script.
+Scripting is useful for automating process and system admin. For example, getting lots of information from all over the OS using one script.
 
 ```sh
 $ cat /etc/hostname
@@ -150,7 +150,7 @@ Rock-c4-plus
 ```
 This is because we have commented out the `echo ...` witht the `#` hash symbol.
 
-Running `cat /etc/os-release` will give you the follwing:
+Running `cat /etc/os-release` will give you the following:
 
 ```sh
 $ cat /etc/os-release
