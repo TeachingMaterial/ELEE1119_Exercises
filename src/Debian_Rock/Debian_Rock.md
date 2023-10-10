@@ -92,3 +92,7 @@ method=auto
 [proxy]
 ```
 
+> **Note** 
+>> You may need to reload the connection:
+>> - `nmcli connection reload` or you can do this with elevation
+>> - `sudo ncmli connetion reload`
