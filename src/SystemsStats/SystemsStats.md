@@ -4,7 +4,7 @@ You will be developing and maintaining a series systemScripts, you need to start
 
 ## Script creation
 
-You first need to create a script the you can develop:
+You first need to create a script that you can develop:
 
 ```sh
 $ mkdir -p Documents/Scripts/bash/
