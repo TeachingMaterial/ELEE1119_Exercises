@@ -20,7 +20,7 @@ enable = true
 
 [output.html]
 mathjax-support = true
-input-404 = "content/404/404.md"
+input-404 = "404/404.md"
 
 
 [output.html.print]
