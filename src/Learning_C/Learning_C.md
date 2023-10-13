@@ -40,7 +40,7 @@ helloworld.c
 Now we are going to open up and edit the content of the file and write it out: 
 
 ```
-$ nano helloworld.c
+$ vim helloworld.c
 ```
 
 Enter the following: 
@@ -58,11 +58,10 @@ int main()
 }
 ```
 
-You will probably have noticed that at the bottom of the text editor there are a number of actions that can be completed. 
-
-The `^` means <kbd>ctrl</kbd> and the `M` means <kbd>alt</kbd> keys + the corresponding symbol.
-
-Once entered use the keyboard shortcut to `writeout` <kbd>ctrl</kbd>+<kbd>o</kbd> and then press the <kbd>Enter</kbd> followed by <kbd>ctrl</kbd>+<kbd>x</kbd> to exit the file.  
+> **Remember**
+>> - To use `i` to enter **INSERT** mode
+>> - Escape key to current mode into **COMMAND** mode
+>> - `:wq` write and quit
 
 Some explanation about the above code:
 
@@ -116,7 +115,7 @@ Congratulations, you used the programming language of the gods!
 
 In C programming, `printf()` is one of the main output function. The function sends formatted output to the screen. For example, the code below is a modified version of the helloworld programme we wrote a moment ago. 
 
-Create a new file `nano inputoutput.c` and reproduce the code below:
+Create a new file `vim inputoutput.c` and reproduce the code below:
 
 ```c
 #include <stdio.h>    
@@ -127,19 +126,18 @@ int main()
     return 0;
 }
 ```
+Remeber to use the vim shortcuts from before to edit, write and quit.
 
 Compile and run:
 
 ```
-$ gcc inputoutput.c -o inputoutput.exe
-$ ./inputoutput.exe
+$ gcc inputoutput.c -o inputoutput.anything
+$ ./inputoutput.anything
 C Programming
-
 ```
 ### Data Type: Printing Integer
 
-
-Now we are going to modifiy the script again `$ nano inputoutput.c` to look like below:
+Now we are going to modifiy the script again `$ vim inputoutput.c` to look like below:
 
 ```c
 #include <stdio.h>
@@ -151,11 +149,11 @@ int main()
 }
 ```
 
-Write out and <kbd>ctrl</kbd>+<kbd>x</kbd> and press <kbd>enter</kbd> twice.
+Remeber to use the vim shortcuts from before to edit, write and quit.
 
 Run the script again... 
 ```
-$ ./inputoutput.exe
+$ ./inputoutput.anything
 ```
 
 What happened? 
@@ -164,8 +162,8 @@ Well we need to recompile the code.
 
 
 ```
-$ gcc inputoutput.c -o inputoutput.exe
-$ ./inputoutput.exe
+$ gcc inputoutput.c -o inputoutput.anything
+$ ./inputoutput.anything
 Number = 5
 
 ```
@@ -190,12 +188,12 @@ int main()
 }
 ```
 
-Compile the code again using format `gcc filesource -o fileoutput` 
+Compile the code again using format `gcc <filesource> -o <fileoutput>`... hint what did you do before?
 
-Run it `./fileoutput`: 
+Run it `./<fileoutput>`: 
 
 ```
-$ ./inputoutput.exe 
+$ ./inputoutput.anything 
 number1 = 13.500000
 number2 = 12.400000
 ```
@@ -220,7 +218,7 @@ int main()
 Remember to compile and then run:
 
 ```
-$ ./inputoutput.exe 
+$ ./inputoutput.anything 
 character = a
 
 ```
@@ -249,7 +247,7 @@ int main()
 Compile and run:
 
 ```
-$ ./inputoutput.exe
+$ ./inputoutput.anything
 Enter an integer: 4
 Number = 4
 ```
@@ -289,7 +287,7 @@ Here is a table of possible format specifiers for input and output:
 Create a new file with `nano` like this:
 
 ```
-$ nano dataTypeSize.c
+$ vim dataTypeSize.c
 ```
 
 We are going to write a program that returns the size of each data type availabe in `c`.
@@ -314,13 +312,13 @@ int main(){
 ```
 
 ```
-gcc dataTypeSize.c -o dataTypeSize.exe
+gcc dataTypeSize.c -o dataTypeSize
 ```
 
 Now enter the following to see the data types and there available sizes in bytes: 
 
 ```
-$ ./dataTypeSize.exe 
+$ ./dataTypeSize
 ```
 
 ----
