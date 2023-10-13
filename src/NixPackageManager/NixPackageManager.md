@@ -66,17 +66,40 @@ The [complete manual](https://nixos.org/nix/manual) of Nix does a fantastic job 
     ```sh
     $ nix-env -qa  > nix-packages.list
     $ wc -l nix-packages.list
-    28974 nix-packages.list
+    57627 nix-packages.list
     $ less nix-package.list
     ```
+
+> **NOTE:**
+>> - To leave any interactive package, press `q` or type `exit` or press the escape key
+
 ## Using Isolated Development Environments in Nix
 
 Ensure you have followed the above steps in the previous section.
 
 ```sh
 $ nix-env -qs
-IP-  nix-1.11.2
+IPS  nix-1.11.2
 IPS  nss-cacert-3.21
+```
+For example, on my instance I get:
+
+```sh
+$ nix-env -qs
+IPS  calc-2.13.0.1
+IPS  check-uptime-20161112
+IPS  git-with-svn-2.33.1
+IPS  gt5-1.4.0
+IPS  hello-2.12.1
+IP-  home-manager-path
+IPS  nix-prefetch-github-4.0.4
+IPS  qtgraphicaleffects-5.15.3
+IPS  qtmultimedia-5.15.3
+IPS  unzip-6.0
+IPS  xbacklight-1.2.3
+IPS  xev-1.2.4
+IPS  xmodmap-1.0.10
+IPS  zip-3.0
 ```
 
 Lets say we need to work on a project named **Finch**. This is a stable project, it is running in production, it relies on a set of solid and proven environments: `Go 1.4`, `PUC-Lua 5.3`, and `Python 2.7`.
@@ -86,7 +109,7 @@ On the other hand, we also have another unrelated project, **Grove**. With this 
 For the first project, we need to setup the following in `~/projects/finch/default.nix` with the following content:
 
 ```sh
-$ mkdir -p ~/projects/finch/ && nano ~/projects/finch/default.nix
+$ mkdir -p ~/projects/finch/ && vim ~/projects/finch/default.nix
 ```
 
 ```nix
