@@ -3,7 +3,7 @@ authors = ["CompEng0001"]
 language = "en"
 multilingual = false
 src = "src"
-title = "ELEE1119 Exercise Book"
+title = "Advanced Computer Engineering"
 
 [output.html.search]
 limit-results = 20
@@ -20,6 +20,7 @@ enable = true
 
 [output.html]
 mathjax-support = true
+input-404 = "404/404.md"
 
 
 [output.html.print]
