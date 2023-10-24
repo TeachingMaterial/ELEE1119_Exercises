@@ -8,6 +8,8 @@
 - [Terminal Multiplexing](tmux/tmux.md)
 - [Learning C](Learning_C/Learning_C.md)
 - [Programming Computers](Programming_Computers/programming_computers.md)
+- [Multi-Threading 1](Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
+- [Multi-Threading 2](Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
 - [System Calls]()
 - [Multi Threading]()
 - [Bash]()
