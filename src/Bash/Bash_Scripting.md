@@ -15,7 +15,7 @@
 1. Create a new file called `script.sh`
    - `$ touch script.sh`
 2. Then edit the file
-   - `$ nano script.sh`
+   - `$ vim script.sh`
 3. Reproduce the following...
    ```sh
     #! /usr/bin/env cat
@@ -26,7 +26,7 @@
     echo ${VAR1} ${VAR2}
     echo ${VAR3} ${VAR2}
    ```
-4. Write out `ctrl+x` 
+ 
 5. Modify the file's mode bits so that it becomes an executable 
    ```sh
    $ ls -l
@@ -67,7 +67,6 @@
         echo ${VAR3} ${VAR2}
        ```
 7. Lets modifiy the script so that the `#! /usr/bin/env wc`
-   - write out `ctrl+x`
    - What will running the script do?
    - Run it and find out.
         <details>
