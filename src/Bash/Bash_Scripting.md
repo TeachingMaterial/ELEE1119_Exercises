@@ -257,14 +257,15 @@ So now you are going to understand in more detail how parameters work.
     <details>
     <summary>Answer</summary>
     
--    ```sh
-    $ bash parameters.sh -U sb7326l -a nonyabusiness -f "Seb Blair"
+      ```sh
+      $ bash parameters.sh -U sb7326l -a nonyabusiness -f "Seb Blair"
       parameters.sh: illegal option -- U
       Username:  Age:  Full Name: 
-    ```
-    So you see that the `getopts` deals with illegal options.
+      ```
+      So you see that the `getopts` deals with illegal options.
 
-    Out of curosity, what happens if you change your parameters orders..?
+      Out of curosity, what happens if you change your parameters orders..?
+
     </details>
 
 ----
