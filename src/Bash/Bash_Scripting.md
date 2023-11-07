@@ -244,6 +244,8 @@ So now you are going to understand in more detail how parameters work.
       u) username=${OPTARG};;
       a) age=${OPTARG};;
       f) fullname=${OPTARG};;
+      ?) echo "Not a recongnised option: ${flag}\n"
+      exit 1;; # this is will catch illegal options
    esac
    done
    echo "Username: $username"  "Age: $age"  "Full Name: $fullname"
