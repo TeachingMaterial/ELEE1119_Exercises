@@ -12,6 +12,7 @@
 - [Multi-Threading 2](Multi-ThreadedScripting-ProcessManagement/UnderstandingProcess.md)
 - [System Calls](SystemCalls/SystemCalls.md)
 - [Bash](Bash/Bash_Scripting.md)
+- [RFC Logger](RFC_Logger/rfclogger.md)
 - [Daemons]()
 - [Nixos Package Manager]()
 - [Man Pages]() 
